@@ -120,7 +120,7 @@ GOOGLE_API_KEY=your_google_api_key
 Pour utiliser les fonctionnalités de l'API Google Generative AI:
 1. Créez un compte de service Google Cloud Platform
 2. Activez l'API Generative AI
-3. Créez une clé API et ajoutez-la dans votre fichier `.env`
+3. Créez une clé API et ajoutez-la dans votre fichier `settings.py`
 
 ## Dépannage
 - Problèmes avec dlib/face_recognition: Assurez-vous que CMake est correctement installé
