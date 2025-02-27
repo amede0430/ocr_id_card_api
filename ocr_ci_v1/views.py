@@ -54,7 +54,7 @@ class ProcessPDFView(APIView):
                                 'issuing_authority': openapi.Schema(type=openapi.TYPE_STRING, description="Autorité de délivrance"),
                                 'date_of_expiry': openapi.Schema(type=openapi.TYPE_STRING, description="Date d'expiration"),
                                 'card_number': openapi.Schema(type=openapi.TYPE_STRING, description="Numéro de la carte"),
-                                'card_face_image': openapi.Schema(type=openapi.TYPE_STRING, description="Image du visage extraite de la carte, encodée en base64"),
+                                #'card_face_image': openapi.Schema(type=openapi.TYPE_STRING, description="Image du visage extraite de la carte, encodée en base64"),
                                 'verification_result': openapi.Schema(type=openapi.TYPE_BOOLEAN, description="Résultat de la vérification faciale"),
                                 'similarity_score': openapi.Schema(type=openapi.TYPE_NUMBER, description="Score de similarité entre les visages (distance: plus petit = plus similaire)"),
                             },
