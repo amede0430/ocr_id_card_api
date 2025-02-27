@@ -6,7 +6,6 @@ Une API RESTful pour l'extraction automatique d'informations à partir de cartes
 ## Fonctionnalités
 - Extraction de texte à partir d'images de pièces d'identité
 - Reconnaissance et validation faciale
-- Détection de fraude sur les documents d'identité
 - API RESTful complète avec documentation Swagger
 - Intégration avec Google Generative AI pour l'analyse avancée
 
@@ -20,7 +19,7 @@ Une API RESTful pour l'extraction automatique d'informations à partir de cartes
 
 ### 1. Cloner le dépôt
 ```bash
-git clone https://github.com/votre-nom/ocr_id_card_api.git
+git clone https://github.com/amede0430/ocr_id_card_api.git
 cd ocr_id_card_api
 ```
 
